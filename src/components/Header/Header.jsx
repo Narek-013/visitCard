@@ -3,7 +3,7 @@ import React from "react";
 const AddToContacts = () => {
   const handleAddContact = () => {
     // Ձեր սերվերի վավեր հղումը
-    window.location.href = "http://localhost:3000/Cont.vcf";
+    window.location.href = "https://n13.netlify.app/Cont.vcf";
   };
 
   return (
