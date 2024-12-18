@@ -1,0 +1,33 @@
+.main {
+  width: 100%;
+  padding:  20px;
+  .main__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 45px;
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+      font-family: Roboto;
+    }
+    .main__social {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+      a {
+        background-color: transparent;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        img{
+            border-radius: 7px;
+            width: 40px;
+            height: 40px;
+        }
+      }
+    }
+  }
+}

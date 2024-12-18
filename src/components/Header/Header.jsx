@@ -1,26 +1,14 @@
-import React from "react";
+import myPhoto from "../../Images/myPhoto.jpg"
+import "./header.scss"
 
-const AddToContacts = () => {
-  const handleAddContact = () => {
-    // Ձեր սերվերի վավեր հղումը
-    window.location.href = "https://n13.netlify.app/Cont.vcf";
-  };
+const Header = () => {
+    return (
+      <div className="header">
+        <div className="header__container container">
+          <img src={myPhoto} alt="my imagee" />
+        </div>
+      </div>
+    );
+}
 
-  return (
-    <button onClick={handleAddContact} style={buttonStyle}>
-      Ավելացնել կոնտակտ
-    </button>
-  );
-};
-
-const buttonStyle = {
-  padding: "10px 20px",
-  backgroundColor: "#007bff",
-  color: "#fff",
-  border: "none",
-  borderRadius: "5px",
-  cursor: "pointer",
-  fontSize: "16px",
-};
-
-export default AddToContacts;
+export default Header;
