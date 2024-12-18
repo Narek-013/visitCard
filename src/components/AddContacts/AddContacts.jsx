@@ -11,7 +11,7 @@ const AddToContacts = () => {
       const intentUrl = `intent://addcontact?name=${contactName}&phone=${phoneNumber}&email=${email}#Intent;scheme=tel;package=com.android.contacts;end;`;
       window.location.href = intentUrl;
     } else if (isIOS) {
-      const vCardUrl = `https://example.com/contact.vcf`;
+      const vCardUrl = `/Cont.vcf`;
       window.location.href = vCardUrl;
     } else {
       alert("Ձեր սարքը չի աջակցում այս գործողությանը");
