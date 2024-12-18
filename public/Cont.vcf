@@ -1,7 +1,19 @@
 BEGIN:VCARD
 VERSION:3.0
-FN:Քո Անունը
-ORG:Քո Ընկերությունը
-TEL;TYPE=CELL:Հեռախոսահամար
-EMAIL:Էլ-փոստի հասցե
+N:Meliksetyan;Narek;;;
+FN:Narek Meliksetyan
+TEL:+37477873707
+TEL:+37433092313
+TEL:+37433441411
+EMAIL:meliksetyan415@gmail.com
+ADR:;;Janibekyan 9/1;Yerevan;;0099;Armenia
+BDAY:2001-03-12
+URL:https://narek-013.github.io/portfolio/#main
+TITLE:Front-End Developer
+ORG:Phenix Corporation
+NOTE:Worked Phenix Corporation
+X-SOCIALPROFILE;TYPE=facebook:https://www.facebook.com/meliqsetyan2014/
+X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/narek____13/
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/narek-meliksetyan-838481301/
+X-SOCIALPROFILE;TYPE=github:https://github.com/Narek-013
 END:VCARD

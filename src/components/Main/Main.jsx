@@ -12,7 +12,7 @@ const Main = () => {
             {
                 socialArr.map((el,idx) => {
                     return (
-                      <a key={idx} href={el.link} target="_blank">
+                      <a key={idx} href={el.link} target="_blank" rel="noreferrer noopener">
                         <img src={el.img} alt={`${el.name} icon`} />
                       </a>
                     );
